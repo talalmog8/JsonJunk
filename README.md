@@ -8,4 +8,4 @@ docker volume create --name maven-repo
 
 docker run -p 8080:8080 -v maven-repo:/root/.m2 talalmog8/json-junk
 
-this builds and executed the program 
+this builds and executes the program 
