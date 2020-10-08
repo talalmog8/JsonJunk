@@ -21,7 +21,7 @@ public abstract class MessageAggregator extends DisposableObserver<Optional<Mess
 
     @Override
     public void onError(@NonNull Throwable throwable) {
-        logger.info("error in subscription");
+        logger.info("error in subscription: {0}", throwable);
     }
 
     public void mergeWith(String data) {
